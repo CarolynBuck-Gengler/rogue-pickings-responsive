@@ -205,10 +205,20 @@ footer span {
 		padding: 0 30px;
 	}
 	header {
-		height: 110px; /* ??? */
+		width: 100%;
 	}
 	header h1 {
 		margin: 0;
 		padding: 38px 0;
+		border-bottom: 0;
+	}
+	header nav {
+		padding: 0;
+	}
+	header h1, header nav {
+		width: auto;
+	}
+	header nav ul li {
+		display: inline;
 	}
 }
