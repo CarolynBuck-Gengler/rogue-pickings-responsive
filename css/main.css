@@ -5,6 +5,7 @@ body {
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 35px;
 }
 
 h1,
@@ -30,29 +31,31 @@ h4 {
 
 p {
 	font-size: 14px;
-	line-height: 21px;
-    padding: 0 30px;
+	line-height: 21px; /* change this? */
+    /* padding: 0 30px; */
 }
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	/* change this? */
+	/* height: 110px;   */
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 }
 
 header h1 {
-	float: left;
-	margin: 0;
-	padding: 38px 0;
+	/* margin: 0 15px; */
+	padding: 15px 0;
+	text-align: center;
+	border-bottom: 3px solid #77a466;
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	float: right;
-	padding: 46px 0;
+	padding: 20px 0;
+	line-height: 40px;
 }
 header nav ul {
 	margin: 0;
@@ -63,7 +66,9 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 14px;
 	padding: 0 10px;
-	display: inline;
+	/* display: inline; */
+	display: block;
+	text-align: center;
 }
 header nav ul li a{
 	text-decoration: none;
@@ -74,21 +79,21 @@ header nav ul li a{
 .top-section,
 .bottom-section {
 	margin: 0 auto;
-	clear: both;
+	/* clear: both; */
 }
 
 .main-image {
-	height: auto;
-	float: left;
+	/* change this? or ok to leave? */
+	height: auto;  
 }
 .main-image img {
 	width: 100%;
 	border-bottom: 3px solid #77a466;
 }
 
-.main-title {
-	height: auto;
-	float: left;
+.main-title { 
+	/* change this? or ok to leave? */
+	height: auto;   
 }
 .main-title h3 {
 	text-align: left;
@@ -98,15 +103,15 @@ header nav ul li a{
 .main-title p {
 	padding: 0;
 	font-size: 16px;
-	line-height: 25px;
+	line-height: 25px;   /* change this? */
 }
 
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
-	height: auto;
-	float: left;
+	/* width: 33%; */
+	/* change this? or ok to leave? */
+	/* height: auto;    */
 	border-top: 1px solid #eee;
 }
 
@@ -114,15 +119,15 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
+/* .section-two {
 	border-left: 1px solid #eee;
 	border-right: 1px solid #eee;
-}
+} */
 
-.section-two h4,
+/* .section-two h4,
 .section-three h4 {
 	padding: 10px 30px;
-}
+} */
 
 .menu {
 	list-style: none;
@@ -136,20 +141,20 @@ header nav ul li a{
 .reviews {
 	color: #333;
 	font-size: 16px;
-	line-height: 21px;
+	line-height: 21px;   /* change this?  */
 }
 
 .address {
 	font-size: 16px;
-	line-height: 24px;
+	line-height: 24px;  /*  change this?  */
 }
 
 /*The widths are in a percentage!*/
 footer {
-	height: 50px;
+	/* height: 50px;   change this? */
 	border-top: 3px solid #eee;
 	margin: 0 auto;
-	clear: both;
+	/* clear: both; */
 	text-align: center;
 }
 footer span {
