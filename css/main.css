@@ -168,7 +168,7 @@ footer span {
 	font-family: 'Galada', cursive;
 	text-transform: lowercase;
 	color: #77a466;
-	font-size: 0.875em;
+	font-size: 1.167em;
 }
 
 @media (min-width: 768px) {
@@ -222,5 +222,9 @@ footer span {
 	}
 	header nav ul li {
 		display: inline;
+	}
+	.section-two h4,
+	.section-three h4 {
+		padding: 10px 30px;
 	}
 }
