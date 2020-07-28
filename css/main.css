@@ -171,8 +171,8 @@ footer span {
 	font-size: 1.167em;
 }
 
-@media (min-width: 768px) {
-	/* tablets */
+@media all and (min-width: 768px) {
+	/* Tablet styles */
 	.section-one,
 	.section-two,
 	.section-three {
@@ -182,15 +182,14 @@ footer span {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	} 
-
 	.section-two h4,
 	.section-three h4 {
 		padding: 10px 30px 10px 20px;
 	}
+
 	.bottom-section {
 		align-items: flex-start;
 	}
-	
 	p {
 		padding: 0 20px;
 	}
@@ -200,12 +199,11 @@ footer span {
 
 }
 
-@media (min-width: 1200px) {
-	/* desktop computers */
+@media all and (min-width: 1200px) {
+	/* Desktop styles */
 	.container {
 		padding: 0;
 	}
-
 	p {
 		padding: 0 30px;
 	}
@@ -217,12 +215,14 @@ footer span {
 	header nav {
 		padding: 0;
 	}
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
 	header h1, header nav {
 		width: auto;
 	}
-	header nav ul li {
-		display: inline;
-	}
+
 	.section-two h4,
 	.section-three h4 {
 		padding: 10px 30px;
